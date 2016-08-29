@@ -1,0 +1,54 @@
+
+.class-accordion{
+  margin:0 0 20px;
+
+  ul{
+    list-style: none;
+    width: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+
+    li{
+      position:relative;
+      overflow:hidden;
+      margin:-1px 0;
+      @include transition(left 0.8s ease-in-out);
+
+      input{
+        visibility: collapse;
+        position: absolute;
+        &.open{
+          ~ .accordion-desc{
+            height:100px;
+            visibility: visible;
+            padding: 5%;
+          }
+        }
+      }
+
+      label{
+        border: 1px solid #ccc;
+        padding: 10px 20px;
+        background: #eee;
+        color: #333;
+        font-weight: 600;
+        width: 100%;
+        display: block;
+        cursor: pointer;
+        text-transform: capitalize;
+        outline:none;
+      }
+      .accordion-desc{
+        height:0;
+        width:100%;
+        overflow: hidden;
+        visibility: collapse;
+        @include transition(all 0.4s ease-in-out);
+        padding: 0 5%;
+        border:1px solid #ccc;
+        margin:-2px 0 0;
+      }
+    }
+  }
+}

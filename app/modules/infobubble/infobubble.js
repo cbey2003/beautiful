@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.infoBubble', [])
+angular.module('uteBeautiful.infoBubble', [])
 
     .directive('ngInfoBubble', function() {
         return {
@@ -15,7 +15,7 @@ angular.module('myApp.infoBubble', [])
                 'cost':'span'
             },
 
-            templateUrl: 'directives/infobubble/infobubble.html'
+            templateUrl: 'modules/infobubble/infobubble.html'
 
         }
     });

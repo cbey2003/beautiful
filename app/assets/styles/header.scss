@@ -1,0 +1,48 @@
+.ute-dca-header{
+  background: $ute-color-20;
+  .context-bar{
+    background: $ute-color-1;
+    clear:both;
+    position:relative;
+    display:block;
+    width:100%;
+    height:auto;
+    padding: 0 20px;
+    line-height: 35px;
+    color:$ute-color-20;
+    font-size:$ute-font-size-copy-4;
+    font-weight:$ute-font-weight-regular;
+
+    .menu{
+      ul {
+        li{
+          padding:0 10px;
+          height:auto;
+        }
+      }
+    }
+
+    ul{
+      list-style:none;
+      li{
+        float:left;
+        a{
+          color:$ute-color-20;
+          font-size:$ute-font-size-copy-4;
+          font-weight:$ute-font-weight-regular;
+        }
+      }
+    }
+
+    .contact-us{
+      display:inline-block;
+      ul {
+        li {
+          padding: 0 20px;
+          line-height: 35px;
+        }
+      }
+    }
+  }
+
+}

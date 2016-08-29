@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.product', [])
+angular.module('uteBeautiful.product', [])
 
     .directive('ngProduct', function() {
         return {
@@ -9,7 +9,7 @@ angular.module('myApp.product', [])
                 path : '@contentSrc'
             },
 
-            templateUrl: 'directives/product/product.html',
+            templateUrl: 'modules/product/product.html',
 
             controller: ['$scope','$http', function ngProductController($scope, $http){
                 $http.get($scope.path).then(function(response) {

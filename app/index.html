@@ -1,8 +1,11 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+<!--[if lt IE 7]>
+<html lang="en" ng-app="uteBeautiful" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html lang="en" ng-app="uteBeautiful" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html lang="en" ng-app="uteBeautiful" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="uteBeautiful" class="no-js"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,21 +14,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
   <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="../dist/styles/main.css">
   <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 <body>
 
-<header>
-  <a class="brand-logo" href="/"></a>
-
-  <ng-menu menu-Id="menu1" is-primary="true" menu-src="assets/taxonomy/primary-menu.json"></ng-menu>
-
-  <ng-menu menu-Id="menu2" is-primary="false" menu-src="assets/taxonomy/secondary-menu.json"></ng-menu>
-
-  <!--ng-login username="Username" password="password"></ng-login-->
-
-</header>
+<ng-header header-id="header1"></ng-header>
 
 <div class="page">
   <ng-content-pane content-id="cp1" content-src="assets/content/contentPane.json"></ng-content-pane>
@@ -45,7 +39,7 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
 
-  <div ng-view></div>
+  <!--div ng-view></div-->
 
   <div>Angular seed app: v<span app-version></span></div>
 
@@ -64,11 +58,12 @@
   <script src="components/version/version-directive.js"></script>
   <script src="components/version/interpolate-filter.js"></script>
   <script src="filters/formatCurrency/formatCurrency.js"></script>
-  <script src="directives/menu/menu.js"></script>
-  <script src="directives/login/login.js"></script>
-  <script src="directives/accordion/accordion.js"></script>
-  <script src="directives/contentpane/contentPane.js"></script>
-  <script src="directives/product/product.js"></script>
-  <script src="directives/infobubble/infobubble.js"></script>
+  <script src="modules/header/header.js"></script>
+  <script src="modules/menu/menu.js"></script>
+  <script src="modules/login/login.js"></script>
+  <script src="modules/accordion/accordion.js"></script>
+  <script src="modules/contentpane/contentPane.js"></script>
+  <script src="modules/product/product.js"></script>
+  <script src="modules/infobubble/infobubble.js"></script>
 </body>
 </html>

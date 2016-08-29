@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.login', [])
+angular.module('uteBeautiful.login', [])
 
 
     .directive('ngLogin', function() {
@@ -10,7 +10,7 @@ angular.module('myApp.login', [])
                 password: '@password'
             },
 
-            templateUrl: 'directives/login/login.html',
+            templateUrl: 'modules/login/login.html',
 
             controller: ['$scope','$http', function ngLoginController($scope, $http){
                 var self = this;

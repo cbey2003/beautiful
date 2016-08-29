@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.menu', [])
+angular.module('uteBeautiful.menu', [])
 
 
 .config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
@@ -17,7 +17,7 @@ angular.module('myApp.menu', [])
             path : '@menuSrc'
         },
 
-        templateUrl: 'directives/menu/menu.html',
+        templateUrl: 'modules/menu/menu.html',
 
         controller: ['$scope','$http', function ngMenuController($scope, $http){
             var self = this;

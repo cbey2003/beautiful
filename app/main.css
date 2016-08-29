@@ -1,0 +1,296 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 1.6rem; }
+
+.currency {
+  display: block;
+  position: relative; }
+  .currency span {
+    font-size: 4rem;
+    margin: 0 8px 0 0; }
+  .currency .currency-symbol {
+    margin: 0; }
+  .currency sup {
+    font-size: 1.2rem;
+    position: absolute;
+    top: 20px; }
+  .currency sub {
+    font-size: 1.2rem;
+    position: absolute;
+    bottom: 18px; }
+
+/* -- vars.scss START -- */
+/*Config file - all variable and config for project*/
+/*asset paths - base path for image and font files*/
+/*Base Setting*/
+/*Colors*/
+/* -- vars.scss END -- */
+.ute-dca-header {
+  background: white; }
+  .ute-dca-header .context-bar {
+    background: #da291c;
+    clear: both;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0 20px;
+    line-height: 35px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: normal; }
+    .ute-dca-header .context-bar .menu ul li {
+      padding: 0 10px;
+      height: auto; }
+    .ute-dca-header .context-bar ul {
+      list-style: none; }
+      .ute-dca-header .context-bar ul li {
+        float: left; }
+        .ute-dca-header .context-bar ul li a {
+          color: white;
+          font-size: 1.2rem;
+          font-weight: normal; }
+    .ute-dca-header .context-bar .contact-us {
+      display: inline-block; }
+      .ute-dca-header .context-bar .contact-us ul li {
+        padding: 0 20px;
+        line-height: 35px; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.page {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto; }
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 15px; }
+
+p:last-child {
+  margin: 0; }
+
+.class-accordion {
+  margin: 0 0 20px; }
+  .class-accordion ul {
+    list-style: none;
+    width: auto;
+    display: block;
+    margin: 0;
+    padding: 0; }
+    .class-accordion ul li {
+      position: relative;
+      overflow: hidden;
+      margin: -1px 0;
+      -webkit-transition: left 0.8s ease-in-out;
+      -moz-transition: left 0.8s ease-in-out;
+      -ms-transition: left 0.8s ease-in-out;
+      -o-transition: left 0.8s ease-in-out;
+      transition: left 0.8s ease-in-out; }
+      .class-accordion ul li input {
+        visibility: collapse;
+        position: absolute; }
+        .class-accordion ul li input.open ~ .accordion-desc {
+          height: 100px;
+          visibility: visible;
+          padding: 5%; }
+      .class-accordion ul li label {
+        border: 1px solid #ccc;
+        padding: 10px 20px;
+        background: #eee;
+        color: #333;
+        font-weight: 600;
+        width: 100%;
+        display: block;
+        cursor: pointer;
+        text-transform: capitalize;
+        outline: none; }
+      .class-accordion ul li .accordion-desc {
+        height: 0;
+        width: 100%;
+        overflow: hidden;
+        visibility: collapse;
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -ms-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+        padding: 0 5%;
+        border: 1px solid #ccc;
+        margin: -2px 0 0; }
+
+header {
+  display: block;
+  clear: both;
+  content: '';
+  position: relative;
+  border-bottom: 1px solid #eee;
+  float: left;
+  width: 100%;
+  margin: 0 auto 20px; }
+  header .brand-logo {
+    display: block;
+    width: 160px;
+    height: 60px;
+    background: #eee;
+    float: left;
+    cursor: pointer; }
+  header ul {
+    display: block;
+    content: '';
+    margin: 0;
+    padding: 0; }
+  header .menu {
+    float: left;
+    clear: both;
+    position: relative; }
+    header .menu ul li {
+      float: left;
+      list-style: none;
+      padding: 5px 30px;
+      margin: 0;
+      position: relative;
+      cursor: pointer;
+      height: 50px;
+      line-height: 50px;
+      text-align: center; }
+      header .menu ul li:hover + a {
+        color: red; }
+      header .menu ul li:hover ul {
+        visibility: visible;
+        overflow: hidden;
+        z-index: 9; }
+        header .menu ul li:hover ul li :hover {
+          background: #333;
+          color: #fff; }
+      header .menu ul li:hover .sub-menu-h1 {
+        height: 26px;
+        line-height: 26px; }
+      header .menu ul li:hover .sub-menu-h2 {
+        height: 52px;
+        line-height: 26px; }
+      header .menu ul li:hover .sub-menu-h3 {
+        height: 78px;
+        line-height: 26px; }
+      header .menu ul li:hover .sub-menu-h4 {
+        height: 104px;
+        line-height: 26px; }
+      header .menu ul li:hover .sub-menu-h5 {
+        height: 130px;
+        line-height: 26px; }
+      header .menu ul li:hover .sub-menu-h6 {
+        height: 156px;
+        line-height: 26px; }
+      header .menu ul li:hover .sub-menu-h7 {
+        height: 182px;
+        line-height: 26px; }
+      header .menu ul li:hover .sub-menu-h8 {
+        height: 208px;
+        line-height: 26px; }
+      header .menu ul li:hover .sub-menu-h9 {
+        height: 234px;
+        line-height: 26px; }
+      header .menu ul li:hover .sub-menu-h10 {
+        height: 260px;
+        line-height: 26px; }
+      header .menu ul li ul {
+        visibility: collapse;
+        position: absolute;
+        width: 140px;
+        height: 0;
+        margin: 0;
+        background: #eee;
+        z-index: 0;
+        overflow: hidden;
+        -webkit-transition: all 0.3s ease-in;
+        -moz-transition: all 0.3s ease-in;
+        -ms-transition: all 0.3s ease-in;
+        -o-transition: all 0.3s ease-in;
+        transition: all 0.3s ease-in; }
+        header .menu ul li ul li {
+          width: 100%;
+          color: #333;
+          float: none;
+          clear: both;
+          display: block;
+          height: auto;
+          line-height: 20px;
+          padding: 5px 10px;
+          text-align: left; }
+  header .primary.menu {
+    clear: none; }
+  header a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #333; }
+
+div {
+  clear: both;
+  content: '';
+  display: block; }
+
+.class-content-pane .content-pane-section {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #eee;
+  margin: 0 auto 25px; }
+  .class-content-pane .content-pane-section .content-title {
+    font-size: 1.8rem; }
+  .class-content-pane .content-pane-section .content-text {
+    display: inline-block;
+    width: 100%; }
+  .class-content-pane .content-pane-section .content-image {
+    display: block;
+    float: left;
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    border: 1px solid #eee; }
+  .class-content-pane .content-pane-section.ctype-text-image .content-text {
+    width: 70%;
+    margin-left: 40px; }
+  .class-content-pane .content-pane-section.ctype-text-image .content-title {
+    float: right;
+    display: block;
+    width: 71%; }
+  .class-content-pane .content-pane-section.ctype-text-image .content-image {
+    margin-top: -50px; }
+  .class-content-pane .content-pane-section.ctype-text-image-list .content-image {
+    float: right; }
+  .class-content-pane .content-pane-section.ctype-text-image-list .content-text {
+    margin-bottom: 20px; }
+  .class-content-pane .content-pane-section.ctype-text-image-list .content-list {
+    float: left; }
+
+.class-product {
+  position: relative; }
+  .class-product .product-section .product-img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    float: left;
+    display: block; }
+  .class-product .product-section .product-price {
+    display: inline-block;
+    font-size: 1.6rem; }
+
+.class-info-bubble {
+  background: #eee;
+  border: 0;
+  border-radius: 8px 8px 8px 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  max-width: 140px;
+  width: 100%;
+  height: auto;
+  font-size: 1.3rem; }
+
+/*# sourceMappingURL=main.css.map */

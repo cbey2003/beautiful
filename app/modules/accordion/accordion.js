@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.accordion', [])
+angular.module('uteBeautiful.accordion', [])
 
     .directive('ngAccordion', function() {
         return {
@@ -25,7 +25,7 @@ angular.module('myApp.accordion', [])
                 }
             },
 
-            templateUrl: 'directives/accordion/accordion.html',
+            templateUrl: 'modules/accordion/accordion.html',
 
             controller: ['$scope','$http', function ngAccordionController($scope, $http){
                 var self = this;

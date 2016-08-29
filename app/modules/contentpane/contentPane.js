@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.contentPane', [])
+angular.module('uteBeautiful.contentPane', [])
 
     .directive('ngContentPane', function() {
         return {
@@ -9,7 +9,7 @@ angular.module('myApp.contentPane', [])
                 path : '@contentSrc'
             },
 
-            templateUrl: 'directives/contentpane/contentPane.html',
+            templateUrl: 'modules/contentpane/contentPane.html',
 
             controller: ['$scope','$http', function ngContentPaneController($scope, $http){
                 $http.get($scope.path).then(function(response) {

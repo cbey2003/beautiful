@@ -1,0 +1,12 @@
+[
+  {
+    "label": "Enterprise",
+    "url": "/enterprise",
+    "tracking":"menu.link.click.link.enterprise"
+  },
+  {
+    "label": "Residential",
+    "url": "/residential",
+    "tracking":"menu.link.click.link.residential"
+  }
+]

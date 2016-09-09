@@ -159,43 +159,43 @@ header {
       height: 50px;
       line-height: 50px;
       text-align: center; }
-      header .menu ul li:hover + a {
+      header .menu ul li:hover + a, header .menu ul li .active + a {
         color: red; }
-      header .menu ul li:hover ul {
+      header .menu ul li:hover ul, header .menu ul li .active ul {
         visibility: visible;
         overflow: hidden;
         z-index: 9; }
-        header .menu ul li:hover ul li :hover {
+        header .menu ul li:hover ul li :hover, header .menu ul li .active ul li :hover {
           background: #333;
           color: #fff; }
-      header .menu ul li:hover .sub-menu-h1 {
+      header .menu ul li:hover .sub-menu-h1, header .menu ul li .active .sub-menu-h1 {
         height: 26px;
         line-height: 26px; }
-      header .menu ul li:hover .sub-menu-h2 {
+      header .menu ul li:hover .sub-menu-h2, header .menu ul li .active .sub-menu-h2 {
         height: 52px;
         line-height: 26px; }
-      header .menu ul li:hover .sub-menu-h3 {
+      header .menu ul li:hover .sub-menu-h3, header .menu ul li .active .sub-menu-h3 {
         height: 78px;
         line-height: 26px; }
-      header .menu ul li:hover .sub-menu-h4 {
+      header .menu ul li:hover .sub-menu-h4, header .menu ul li .active .sub-menu-h4 {
         height: 104px;
         line-height: 26px; }
-      header .menu ul li:hover .sub-menu-h5 {
+      header .menu ul li:hover .sub-menu-h5, header .menu ul li .active .sub-menu-h5 {
         height: 130px;
         line-height: 26px; }
-      header .menu ul li:hover .sub-menu-h6 {
+      header .menu ul li:hover .sub-menu-h6, header .menu ul li .active .sub-menu-h6 {
         height: 156px;
         line-height: 26px; }
-      header .menu ul li:hover .sub-menu-h7 {
+      header .menu ul li:hover .sub-menu-h7, header .menu ul li .active .sub-menu-h7 {
         height: 182px;
         line-height: 26px; }
-      header .menu ul li:hover .sub-menu-h8 {
+      header .menu ul li:hover .sub-menu-h8, header .menu ul li .active .sub-menu-h8 {
         height: 208px;
         line-height: 26px; }
-      header .menu ul li:hover .sub-menu-h9 {
+      header .menu ul li:hover .sub-menu-h9, header .menu ul li .active .sub-menu-h9 {
         height: 234px;
         line-height: 26px; }
-      header .menu ul li:hover .sub-menu-h10 {
+      header .menu ul li:hover .sub-menu-h10, header .menu ul li .active .sub-menu-h10 {
         height: 260px;
         line-height: 26px; }
       header .menu ul li ul {

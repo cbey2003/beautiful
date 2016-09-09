@@ -48,7 +48,7 @@
     "price":100,
     "saving":60,
     "savingsterm":"2 years",
-    "description":"<p>Praesent consequat sit amet ex quis commodo. Aenean imperdiet arcu magna, nec laoreet diam imperdiet non. Vestibulum vestibulum convallis nisi, aliquet imperdiet risus pulvinar ac. Suspendisse arcu enim, iaculis non elit a, egestas tincidunt eros. Sed eget urna aliquet, cursus lectus nec, commodo sem. Fusce facilisis ante sed lobortis dignissim. Aenean sapien felis, tincidunt quis diam pharetra, vulputate scelerisque velit.</p>",
+    "description":"<p> <a>test link</a>Praesent consequat sit amet ex quis commodo. Aenean imperdiet arcu magna, nec laoreet diam imperdiet non. Vestibulum vestibulum convallis nisi, aliquet imperdiet risus pulvinar ac. Suspendisse arcu enim, iaculis non elit a, egestas tincidunt eros. Sed eget urna aliquet, cursus lectus nec, commodo sem. Fusce facilisis ante sed lobortis dignissim. Aenean sapien felis, tincidunt quis diam pharetra, vulputate scelerisque velit.</p>",
     "image":"assets/images/default-image.png",
     "details":[
       {

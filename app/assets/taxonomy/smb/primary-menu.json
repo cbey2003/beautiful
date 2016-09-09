@@ -1,0 +1,102 @@
+[
+  {
+    "label": "Products and Services",
+    "url": "/products_services",
+    "tracking":"menu.link.click.products",
+    "submenu":[
+      {
+        "label": "submenu0",
+        "url": "/submenu0",
+        "tracking":"menu.link.click.submenu0"
+      },
+      {
+        "label": "submenu1",
+        "url": "/submenu1",
+        "tracking":"menu.link.click.submenu1"
+      },
+      {
+        "label": "submenu2",
+        "url": "/submenu2",
+        "tracking":"menu.link.click.submenu3"
+      }
+    ]
+  },
+  {
+    "label": "Support",
+    "url": "/support",
+    "tracking":"menu.link.click.support",
+    "megamenu":[
+      {
+        "label": "megamenu0",
+        "url": "/megamenu0",
+        "tracking":"menu.link.click.megamenu0",
+        "submenu":[
+          {
+            "label": "submenu0",
+            "url": "/submenu0",
+            "tracking":"menu.link.click.megamenu0.submenu0"
+          },
+          {
+            "label": "submenu1",
+            "url": "/submenu1",
+            "tracking":"menu.link.click.megamenu0.submenu1"
+          },
+          {
+            "label": "submenu2",
+            "url": "/submenu2",
+            "tracking":"menu.link.click.megamenu0.submenu3"
+          }
+        ]
+      },
+      {
+        "label": "megamenu1",
+        "url": "/megamenu1",
+        "tracking":"menu.link.click.megamenu1",
+        "submenu":[
+          {
+            "label": "submenu0",
+            "url": "/submenu0",
+            "tracking":"menu.link.click.megamenu1.submenu0"
+          },
+          {
+            "label": "submenu1",
+            "url": "/submenu1",
+            "tracking":"menu.link.click.megamenu1.submenu1"
+          },
+          {
+            "label": "submenu2",
+            "url": "/submenu2",
+            "tracking":"menu.link.click.megamenu1.submenu3"
+          }
+        ]
+      },
+      {
+        "label": "megamenu2",
+        "url": "/megamenu2",
+        "tracking":"menu.link.click.megamenu2",
+        "submenu":[
+          {
+            "label": "submenu0",
+            "url": "/submenu0",
+            "tracking":"menu.link.click.megamenu2.submenu0"
+          },
+          {
+            "label": "submenu1",
+            "url": "/submenu1",
+            "tracking":"menu.link.click.megamenu2.submenu1"
+          },
+          {
+            "label": "submenu2",
+            "url": "/submenu2",
+            "tracking":"menu.link.click.megamenu2.submenu3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Contact Us",
+    "url": "/contact",
+    "tracking":"menu.link.click.contactus"
+  }
+]

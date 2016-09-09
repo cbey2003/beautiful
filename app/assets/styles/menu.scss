@@ -44,7 +44,7 @@ header{
         line-height: 50px;
         text-align: center;
 
-        &:hover {
+        &:hover, & .active {
 
           + a {
             color: red;

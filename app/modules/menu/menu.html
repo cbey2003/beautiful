@@ -9,6 +9,18 @@
                     <span>{{sub.label}}</span>
                 </li>
             </ul>
+            <div class="mega-menu" ng-if="item.megamenu.length > 0">
+                <ul ng-if="item.megamenu.length > 0">
+                    <li ng-repeat="megaitem in item.megamenu">
+                        <span>{{megaitem.label}}</span>
+                        <ul ng-if="megaitem.submenu.length > 0">
+                            <li ng-repeat="megasubitem in megaitem.submenu">
+                                <span>{{megasubitem.label}}</span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </li>
     </ul>
 </div>
